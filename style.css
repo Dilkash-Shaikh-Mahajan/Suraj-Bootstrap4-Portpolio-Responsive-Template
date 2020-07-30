@@ -1,0 +1,56 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cover{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+.cover-content{
+    min-height: 100vh;
+}
+.cover-content img{
+    max-width: 200px;
+    border: 2px double #FFF;
+}
+.about{
+    background-color: #ececec;
+}
+.footer-content
+{
+    word-spacing: 2px;
+    /* font-size: 12px; */
+
+}
+@media only screen and (max-width:768px){
+    .cover-content h1{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .cover-content h6{
+        font-size: 15px;
+    }
+    .footer-content
+{
+    word-spacing: 0px !important;
+    font-size: 12px !important;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
